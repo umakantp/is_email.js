@@ -1,16 +1,20 @@
 /*!
  * is_email.js is a port of the is_email PHP library to Javascript.
+ *
+ * @package	    is_email.js
+ * @author      Umakant Patil <me@umakantpatil.com>
+ * @copyright   2008-2011 Dominic Sayers
+ * @version	    0.0.1
+ *
  * To validate an email address according to RFCs 5321, 5322 and others
  *
- * By Umakant Patil, http://umakantpatil.com
- *
- * Originally library is written by Dominic Sayers for PHP. JavaScript port is done by Umakant Patil.
+ * Original library is written by Dominic Sayers for PHP.
  * All rights are reserved with Dominic Sayers and contributors.
- *
- * Copyright © 2008-2011, Dominic Sayers
  */
 
 /**
+ * Copyright © 2008-2011, Dominic Sayers
+ *
  * Redistribution and use in source and binary forms, with or without modification,
  * are permitted provided that the following conditions are met:
  *
