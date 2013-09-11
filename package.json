@@ -1,0 +1,22 @@
+{
+  "name": "is_email",
+  "version": "0.0.1",
+  "description": "is_email() is a function to validate an email address against relevant RFCs",
+  "main": "is_email.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/umakantp/is_email.js.git"
+  },
+  "keywords": [
+    "is_email",
+    "validate",
+    "email",
+    "email",
+    "validation"
+  ],
+  "author": "Umakant Patil",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/umakantp/is_email.js/issues"
+  }
+}
