@@ -5,7 +5,7 @@
  * @author      Umakant Patil <me@umakantpatil.com>
  * @copyright   2013 Umakant Patil
  * @copyright   2008-2011 Dominic Sayers
- * @version	    0.0.1
+ * @version	    0.0.2
  *
  * To validate an email address according to RFCs 5321, 5322 and others
  *
@@ -1259,8 +1259,13 @@
         jQuery.is_email = is_email;
     }
 
-    // Enable for Require.js
+    // Enable for Require.js.
     if (typeof(define) === 'function' && define.amd) {
         define(function() { return is_email; });
+    }
+
+    // Enable for Browsers.
+    if (typeof(window) !== 'undefined') {
+        window.is_email = is_email;
     }
 })();
